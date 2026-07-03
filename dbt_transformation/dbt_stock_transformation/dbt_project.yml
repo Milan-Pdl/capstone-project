@@ -32,5 +32,24 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_stock_transformation:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    staging:
+      +materialized: table       # Views are best practice for staging
+      +schema: staging           # Will create a schema suffix like '_staging'
+    
+    # 2. INTERMEDIATE LAYER (Silver)
+    intermediate:
+      +materialized: table       # Physical tables for transforming heavy data
+      +schema: intermediate      # Suffix like '_intermediate' or '_silver'
+      
+    # 3. MARTS LAYER (Gold / Reporting)
+    marts:
+      +materialized: table       # Fully materialized reporting tables
+      +schema: gold
+
+# snapshots:
+#   dbtProject:  # Replace with your actual project name if different
+#     +target_schema: gold
+
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.3.0
