@@ -1,0 +1,12 @@
+dbt_stock_transformation:
+  outputs:
+    dev:
+      dbname: Stock
+      host: localhost
+      pass: milandada
+      port: 5432
+      schema: raw
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
