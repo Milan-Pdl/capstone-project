@@ -1,0 +1,6 @@
+..  
+    In company table there are lot of duplicated values
+    Duplicated stock_symbol and duplicated company_name
+
+    Stock_market table seems pretty neat and prod ready
+..

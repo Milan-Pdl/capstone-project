@@ -1,0 +1,802 @@
+"company_id","company_name","stock_symbol","sector_id","sector_name","rnk_name","rnk_symbol"
+193," United Mewa Khola Hydropower Limited","UMKHL",0,"Hydro Power",1,1
+902,"10% Citizens Bank Debenture 2090","CIZBD90",0,"Corporate Debenture",1,1
+592,"10% Himalayan Bank Debenture 2083","HBLD83",0,"Corporate Debenture",1,1
+904,"10% KBL Debenture 2090","KBLD90",0,"Corporate Debenture",1,1
+667,"10% Laxmi Bank Debenture 2086","LBLD86",0,"Corporate Debenture",1,1
+594,"10% Nabil Debenture 2082","NBLD82",0,"Corporate Debenture",1,1
+595,"10% Nepal SBI Bank Debenture 2086","SBIBD86",0,"Corporate Debenture",1,1
+367,"10% NIC Asia Debenture 2085/86","NICAD85/86",0,"Corporate Debenture",1,1
+918,"10% NIMB Debenture 2090","NIMBD90",0,"Corporate Debenture",1,1
+356,"10% NMB DEBENTURE 2085","NMBD2085",0,"Corporate Debenture",1,1
+596,"10% Prabhu Bank Debenture 2084","PBLD84",0,"Corporate Debenture",1,1
+748,"10% Prime Debenture 2088","PBD88",0,"Corporate Debenture",1,1
+368,"10% Sanima Bank Limited Debenture","SAND2085",0,"Corporate Debenture",1,1
+768,"10.15% Prime Debenture 2084","PBD84",0,"Corporate Debenture",1,1
+597,"10.25% Citizens Bank Debenture 2086","CIZBD86",0,"Corporate Debenture",1,1
+598,"10.25% KBL Debenture 2086","KBLD86",0,"Corporate Debenture",1,1
+683,"10.25% Machhapuchhre Bank Debenture 2085","MBLD2085",0,"Corporate Debenture",1,1
+599,"10.25% NBBL Debenture 2085","NBBD2085",0,"Corporate Debenture",1,1
+777,"10.25% Nepal SBI Bank Debenture 2083","SBID83",0,"Corporate Debenture",1,1
+359,"10.25% NIC Asia Debenture 2083/84","NICD83/84",0,"Corporate Debenture",1,1
+366,"10.25% Prabhu Bank Debenture 2086","PBLD86",0,"Corporate Debenture",1,1
+773,"10.25% Sanima Debenture 2089","SBD89",0,"Corporate Debenture",1,1
+360,"10.25% SBL Debenture 2083","SBLD83",0,"Corporate Debenture",1,1
+361,"10.25% Sunrise Bank Debenture 2083","SRBLD83",0,"Corporate Debenture",1,1
+819,"10.30% Standard Chartered Bank Nepal Ltd Rinpatra","SCBD",0,"Corporate Debenture",1,1
+665,"10.35% Agricultural Bank Debenture 2083","ADBLD83 ",0,"Corporate Debenture",1,1
+784,"10.50% BOK Debenture, 2086","BOKD86KA",0,"Corporate Debenture",1,1
+753,"10.50% Century Debenture 2088","CCBD88",0,"Corporate Debenture",1,1
+781,"10.50% Everest Bank Rinpatra, 2085","EBLD85",0,"Corporate Debenture",1,1
+790,"10.50% Himalayan Bank Limited 2086.","HBLD86",0,"Corporate Debenture",1,1
+774,"10.75% SBL Debenture 2089","SBLD89",0,"Corporate Debenture",1,1
+791,"11% KBL Debenture 2089","KBLD89",0,"Corporate Debenture",1,1
+878,"11% LBBL Debenture 2089","LBBLD89",0,"Corporate Debenture",1,1
+843,"11% Mahalaxmi Debenture-2089","MLBLD89",0,"Corporate Debenture",1,1
+820,"11.25% Global IME Bank Debenture 2084/85.","GBILD84/85",0,"Corporate Debenture",1,1
+676,"12% Goodwill Finance Limited Debenture 2083","GWFD83",0,"Corporate Debenture",1,1
+674,"12% ICFC Finance Limited Debenture 2083","ICFCD83",0,"Corporate Debenture",1,1
+911,"4% AGRICULTURAL BOND","ADBLB",0,"Corporate Debenture",1,1
+715,"4% Agricultural Bond (8 years)","ADBLB86",0,"Corporate Debenture",1,1
+938,"4% Agricultural Bond (9 years)","ADBLB87",0,"Corporate Debenture",1,1
+662,"4% NMB Energy Bond 2092/93","NMBEB92/93",0,"Corporate Debenture",1,1
+800,"5.5% Everest Bank Ltd Urja Rinpatra 2089","EBLEB89",0,"Corporate Debenture",1,1
+1046,"7% Nabil Debenture 2089","NABILD2089",0,"Corporate Debenture",1,1
+1035,"7% NIC Asia Debenture 2091","NICAD2091",0,"Corporate Debenture",1,1
+805,"7% NIFRA Urja Rinpatra 2085/86","NIFRAUR85/86",0,"Corporate Debenture",1,1
+1037,"7% RBBL Debenture 2088","RBBD2088",0,"Corporate Debenture",1,1
+1043,"7.25% SBL Debenture 2091","SBLD2091",0,"Corporate Debenture",1,1
+1031,"7.50 Everest Bank Limited Debenture 2091","EBLD91",0,"Corporate Debenture",1,1
+1058,"8% ICFC Finance Limited Debenture 2089","ICFCD89 ",0,"Corporate Debenture",1,1
+718,"8% Nabil Bank Debenture 2085","NBLD85",0,"Corporate Debenture",1,1
+608,"8.5% B.O.K DEBENTURE 2086","BOKD86",0,"Corporate Debenture",1,1
+740,"8.5% Everest Bank Debenture","EBLD86",0,"Corporate Debenture",1,1
+686,"8.5% Global IME Bank Ltd. Debenture 2086/87","GBILD86/87",0,"Corporate Debenture",1,1
+713,"8.5% Laxmi Bank Debenture 2088","LBLD88",0,"Corporate Debenture",1,1
+714,"8.5% Machhapuchchhre Debenture 2087","MBLD87",0,"Corporate Debenture",1,1
+663,"8.5% Nepal Bank Debeture 2087","NBLD87",0,"Corporate Debenture",1,1
+617,"8.5% Nepal Investment Bank Bond 2084","NIBD84",0,"Corporate Debenture",1,1
+710,"8.5% NIC Asia Debenture 2088","NICD88",0,"Corporate Debenture",1,1
+702,"8.5% Prabhu Bank Debenture 2087","PBLD87",0,"Corporate Debenture",1,1
+703,"8.5% RBBL Debenture 2083","RBBD83",0,"Corporate Debenture",1,1
+614,"8.5% Sanima Debenture 2087","SBD87",0,"Corporate Debenture",1,1
+668,"8.5% SBL Debenture 2084","SBLD84",0,"Corporate Debenture",1,1
+737,"8.75% Garima Debenture 2085","GBBD85",0,"Corporate Debenture",1,1
+678,"8.75% Prime Debenture 2085","PBD85",0,"Corporate Debenture",1,1
+1025,"9% ICFC Finance Limited Debenture-2088","ICFCD88",0,"Corporate Debenture",1,1
+690,"9% Jyoti Bikas Bank Bond 2087","JBBD87",0,"Corporate Debenture",1,1
+672,"9% KSBBL Debenture 2087","KSBBLD87",0,"Corporate Debenture",1,1
+914,"9% Nabil Debenture 2087","NABILD87",0,"Corporate Debenture",1,1
+894,"9% Nepal SBI Bank Rinpatra 2089","SBID89",0,"Corporate Debenture",1,1
+660,"9.5% Manjushree Finance Ltd. Debenture 2085","MFLD85",0,"Corporate Debenture",1,1
+689,"9.5% NCC Debenture 2086","NCCD86",0,"Corporate Debenture",1,1
+588,"Aarambha Chautari Laghubitta Bittiya Sanstha Limited","ACLBSL",0,"Microfinance",1,1
+908,"Aarambha Chautari Laghubitta Bittiya Sanstha Limited Promoter Share","ACLBSLP",0,"Microfinance",1,1
+57,"Aarati power Company Limited ","ARATI",0,"Hydro Power",1,1
+818,"Aatmanirbhar Laghubitta Bittiya Sanstha Limited","ANLB",0,"Microfinance",1,1
+865,"Aatmanirbhar Laghubitta Bittiya Sanstha Promoter","ANLBP",0,"Microfinance",1,1
+36,"Accord Pharmaceuticals limited ","ACCORD",0,"Others",1,1
+243,"Agni Cement Industries Limited","AGNI",0,"Manufacturing and Processing",1,1
+1,"Agricultural Development Bank Limited","ADBL",0,"Commercial Banks",1,1
+930,"Agricultural Development Bank Limited Promoter Share","ADBLP",0,"Commercial Banks",1,1
+13,"Akama Hotel Limited","AKAMA",0,"Hotels and Tourism",1,1
+206,"All Nepal Infrastructure Development Company Limited","ANIDCL",0,"Investment",1,1
+72,"Alpha Capital Limited","ALPHA",0,"Investment",1,1
+210,"Ambe Cement Private Limited","AMBECPL",0,"Manufacturing and Processing",1,1
+81,"Ambe Steels Limited","AMBE",0,"Manufacturing and Processing",1,1
+149,"Ankhu Khola Jalvidhyut Company Ltd","AKJCL",0,"Hydro Power",1,1
+28,"Annapurna Cable Car Limited","ACC",0,"Hotels and Tourism",1,1
+275,"Annapurna Machha Dana Udhyog Limited","ANNAPURNA",0,"Manufacturing and Processing",1,1
+21,"Apex Hospitality Limited","AXHL",0,"Others",1,1
+150,"Api Power Company Ltd.","API",0,"Hydro Power",1,1
+278,"Apolo Hydropower Limited","APOLO",0,"Hydro Power",1,1
+973,"Appolo Hydropower Limited","APHL",0,"Hydro Power",1,1
+162,"Arrow Pharmaceuticals Limited","ARROW",0,"Manufacturing and Processing",1,1
+151,"Arun Kabeli Power Ltd.","AKPL",0,"Hydro Power",1,1
+152,"Arun Valley Hydropower Development Co. Ltd.","AHPC",0,"Hydro Power",1,1
+260,"Asha Laghubitta Bittiya Sanstha Limited Promoter Share","ALBSLP",0,"Microfinance",1,1
+259,"Asha Laghubitta Bittiya Sanstha Ltd","ALBSL",0,"Microfinance",1,1
+164,"Asian Concreto Limited","ASCL",0,"Others",1,1
+264,"Asian Hotel Limited","ASHL",0,"Hotels and Tourism",1,1
+804,"Asian Hydropower Limited","AHL",0,"Hydro Power",1,1
+241,"Asian Life Insurance Co. Limited","ALICL",0,"Life Insurance",1,1
+242,"Asian Life Insurance Company Limited Promoter Share","ALICLP",0,"Life Insurance",1,1
+136,"Asian Paints (Nepal) Private Limited","ASIANP",0,"Manufacturing and Processing",1,1
+780,"Aviyan Lagubitta Bittiya Sanstha Limited","AVYAN",0,"Microfinance",1,1
+151,"B & B Hospital Private Limited","BBHPL",0,"Others",1,1
+688,"Balephi Hydropower Limited","BHL",0,"Hydro Power",1,1
+134,"Bandipur Cable Car and Tourism Limited","BCTL",0,"Hotels and Tourism",1,1
+796,"Barahi Hydropower Public Limited","BHPL",0,"Hydro Power",1,1
+153,"Barun Hydropower Co. Ltd.","BARUN",0,"Hydro Power",1,1
+29,"Barun Investment Limited","BIL",0,"Investment",1,1
+51,"Beni Hydropower Project Limited","BENI",0,"Hydro Power",1,1
+107,"Best Finance Company Limited Promoter Share","BFCPO",0,"Finance",1,1
+106,"Best Finance Company Ltd.","BFC",0,"Finance",1,1
+268,"Bhagawati Composite Industries Limited","BCIL",0,"Manufacturing and Processing",1,1
+859,"Bhagwati Hydropower Development Company Limited","BGWT",0,"Hydro Power",1,1
+228,"Bhat Bhateni Supermarket","BHATB",0,"Tradings",1,1
+78,"Bhugarbha Cement Limited","BCL",0,"Manufacturing and Processing",1,1
+821,"Bhugol Energy Development Company Limited","BEDC",0,"Hydro Power",1,1
+955,"Bhujung Hydropower Limited","BJHL",0,"Hydro Power",1,1
+963,"Bikash Hydropower Company Limited","BHCL",0,"Hydro Power",1,1
+751,"Bindhyabasini Hydropower Development Company Limited","BHDC",0,"Hydro Power",1,1
+232,"Bishal Bazar Company Limited","BBC",0,"Tradings",1,1
+235,"Bottlers Nepal (Balaju) Limited","BNL",0,"Manufacturing and Processing",1,1
+234,"Bottlers Nepal (Terai) Limited","BNT",0,"Manufacturing and Processing",1,1
+108,"Brij Cement Industries Private Limited","BRIJ",0,"Manufacturing and Processing",1,1
+669,"Buddha Bhumi Nepal Hydropower Company Limited","BNHC",0,"Hydro Power",1,1
+130,"Budhanilkantha Heritage Hotel Limited","BHHL",0,"Hotels and Tourism",1,1
+969,"Bungal Hydro Limited","BUNGAL",0,"Hydro Power",1,1
+252,"Bungal Hydropower","BHP",0,"Hydro Power",1,1
+154,"Butwal Power Company Limited","BPCL",0,"Hydro Power",1,1
+117,"Capital Max Securities Limited","CMSL",0,"Others",1,1
+140,"CDS and Clearing Limited","CDSC",0,"Others",1,1
+692,"CEDB Holdings Limited","CHDC",0,"Investment",1,1
+207,"Cellucity International Private Limited","CELLUCITY",0,"Others",1,1
+110,"Central Finance Limited","CFCL",0,"Finance",1,1
+111,"Central Finance Limited Promoter Share","CFCLPO",0,"Finance",1,1
+5,"Century Commercial Bank Limited Promoter Share","CCBLPO",0,"Commercial Banks",1,1
+95,"Century Energy Limited","CEL",0,"Hydro Power",1,1
+607,"Chandragiri Hills Limited","CGH",0,"Hotels and Tourism",1,1
+184,"Chhaya Devi Complex Limited ","CDCL",0,"Others",1,1
+263,"Chhimek Laghubitta Bittiya Sanstha Limited","CBBL",0,"Microfinance",1,1
+264,"Chhimek Laghubitta Bittiya Sanstha Limited Promoter Share","CBBLPO",0,"Microfinance",1,1
+155,"Chhyangdi Hydropower Ltd.","CHL",0,"Hydro Power",1,1
+156,"Chilime Hydropower Company Limited","CHCL",0,"Hydro Power",1,1
+863,"Chirkhwa Hydro Power Ltd","CKHL",0,"Hydro Power",1,1
+89,"Chitwan Medical College Limited","CMC",0,"Others",1,1
+6,"Citizen Bank International Limited","CZBIL",0,"Commercial Banks",1,1
+229,"Citizen Investment Trust","CIT",0,"Investment",1,1
+927,"Citizen Investment Trust Promoter Share","CITPO",0,"Investment",1,1
+671,"Citizen Life Insurance Company Limited","CLI",0,"Life Insurance",1,1
+903,"Citizen Life Insurance Company Limited Promoter Share","CLIP",0,"Life Insurance",1,1
+7,"Citizens Bank International Limited Promoter Share","CZBILP",0,"Commercial Banks",1,1
+10,"Citizens Capital Limited","CCL",0,"Investment",1,1
+182,"Citizens Mutual Fund 2","CMF2",0,"Mutual Fund",1,1
+1056,"Citizens Santulit Yojana","CSY",0,"Mutual Fund",1,1
+187,"Citizens Santulit Yojana ","CZSY",0,"Mutual Fund",1,1
+846,"Citizens Super 30 Mutual Fund","C30MF",0,"Mutual Fund",1,1
+838,"City Hotel Limited","CITY",0,"Hotels and Tourism",1,1
+738,"Civil Bank Debenture 2088","CBLD88",0,"Corporate Debenture",1,1
+9,"Civil Bank Limited Promoter Share","CBLPO",0,"Commercial Banks",1,1
+265,"Civil Laghubitta Bittiya Sanstha Limited Promoter Share","CLBSLP",0,"Microfinance",1,1
+211,"Classic Tech Private Limited","CTPL",0,"Others",1,1
+53,"Corporate Development Bank Limited","CORBL",0,"Development Banks",1,1
+54,"Corporate Development Bank Limited Promoter Share","CORBLP",0,"Development Banks",1,1
+106,"Cosmic Electrical Limited","COSMIC",0,"Hydro Power",1,1
+1011,"Crest Micro Life Insurance Limited","CREST",0,"Life Insurance",1,1
+1038,"Crest Micro Life Insurance Limited- Promoter Share","CRESTP",0,"Life Insurance",1,1
+716,"CYC Nepal Laghubitta Bittiya Sanstha Limited","CYCL",0,"Microfinance",1,1
+772,"CYC Nepal Laghubitta Bittiya Sanstha Ltd- Promotor Share","CYCLP",0,"Microfinance",1,1
+96,"Dabur Nepal Private Limited","DABUR",0,"Manufacturing and Processing",1,1
+50,"Daramkhola Hydro Energy Limited","DARAM",0,"Hydro Power",1,1
+149,"Daunne Agro Farm Limited","DAFL",0,"Manufacturing and Processing",1,1
+267,"Deprosc Laghubitta Bittiya Sanstha Limited","DDBL",0,"Microfinance",1,1
+268,"Deprosc Laghubitta Bittiya Sanstha Limited Promoter Share","DDBLPO",0,"Microfinance",1,1
+779,"Dhaulagiri Lagubitta Bittiya Sanstha Limited","DLBS",0,"Microfinance",1,1
+799,"Dhaulagiri Lagubitta Bittiya Sanstha Limited Promoter Share","DLBSP",0,"Microfinance",1,1
+157,"Dibyashwori Hydropower Ltd.","DHPL",0,"Hydro Power",1,1
+16,"Dish Media Network Limited","DMNL",0,"Others",1,1
+825,"Dolti Power Company Limited","DOLTI",0,"Hydro Power",1,1
+752,"Dordi Khola Jal Bidyut Company Limited","DORDI",0,"Hydro Power",1,1
+256,"Dudhpokhari Chepe Hydropower","DCHL",0,"Hydro Power",1,1
+251,"Dusit Thani Himalayan Resort","DUSIT",0,"Hotels and Tourism",1,1
+786,"Eastern Hydropower Company Limited","EHPL",0,"Hydro Power",1,1
+71,"Eastern Sahara Company Limited","ESCL",0,"Others",1,1
+236,"Elevation Energy Management Limited","EEML",0,"Hydro Power",1,1
+742,"Emerging Nepal Limited","ENL",0,"Investment",1,1
+745,"Emerging Nepal Limited Promoter Share","ENLP",0,"Investment",1,1
+10,"Everest Bank Limited","EBL",0,"Commercial Banks",1,1
+11,"Everest Bank Limited Promoter Share","EBLPO",0,"Commercial Banks",1,1
+124,"Everest Colour Limited","ECL",0,"Manufacturing and Processing",1,1
+235,"Everest Hospitality And Hotel Limited","EHHL",0,"Hotels and Tourism",1,1
+58,"Excel Development Bank Limited Promoter Share","EDBLPO",0,"Development Banks",1,1
+57,"Excel Development Bank Ltd.","EDBL",0,"Development Banks",1,1
+177,"F1 Soft International Private Limited","F1SIPL",0,"Others",1,1
+163,"Federal Re-Insurance Brokers Limited","FRBL",0,"Others",1,1
+269,"First Micro Finance Development Bank Ltd.","FMDBL",0,"Microfinance",1,1
+270,"First Microfinance Laghubitta Bittiya Sanstha Limited Promoter Share","FMDBLP",0,"Microfinance",1,1
+258,"Fonepay payment service limited","FPSL",0,"Others",1,1
+272,"Forward Community Microfinance Bittiya Sanstha Limited Promoter Share","FOWADP",0,"Microfinance",1,1
+271,"Forward Microfinance Laghubitta Bittiya Sanstha Limited","FOWAD",0,"Microfinance",1,1
+273,"Ganapati Laghubitta Bittiya Sanstha Limited","GMFBS",0,"Microfinance",1,1
+274,"Ganapati Laghubitta Bittiya Sanstha Limited Promoter Share","GMFBSP",0,"Microfinance",1,1
+253,"Ganga Healthcare Ltd","GHCL",0,"Manufacturing and Processing",1,1
+61,"Garima Bikas Bank Limited","GBBL",0,"Development Banks",1,1
+62,"Garima Bikas Bank Limited Promoter Share","GBBLPO",0,"Development Banks",1,1
+1009,"Garima Samriddhi Yojana","GSY",0,"Mutual Fund",1,1
+1060,"Garima Subarna Yojana","GSYM",0,"Mutual Fund",1,1
+119,"Generation Next Communication Private Limited","GNCl",0,"Others",1,1
+290,"Genesis Ventures Ltd","GENV",0,"Others",1,1
+158,"Ghalemdi Hydro Limited","GHL",0,"Hydro Power",1,1
+75,"GhauGhar Ujyalo Sana Hydropower","GGUSHL",0,"Hydro Power",1,1
+847,"Ghorahi Cement Industry Ltd.","GCIL",0,"Manufacturing and Processing",1,1
+209,"GI Solar Limited","GIS",0,"Others",1,1
+171,"Global Hydropower Associates Limited","GHAL",0,"Hydro Power",1,1
+776,"Global IME Balanced Fund - 1","GIBF1",0,"Mutual Fund",1,1
+12,"Global IME Bank Limited","GBIME",0,"Commercial Banks",1,1
+13,"Global IME Bank Limited Promoter Share","GBIMEP",0,"Commercial Banks",1,1
+277,"Global IME Laghubitta Bittiya Sanstha Limited Promoter Share","GILBPO",0,"Microfinance",1,1
+278,"Global IME Laghubitta Bittiya Sanstha Ltd.","GILB",0,"Microfinance",1,1
+1052,"Global IME Sammunat Yojana-2","GBIMESY2",0,"Mutual Fund",1,1
+244,"Global IME Samunnat Yojana - II","GISY2",0,"Mutual Fund",1,1
+115,"Global Trading Concern Private Limited","GTC",0,"Others",1,1
+231,"Godawari Steel Limited","GODAWARI",0,"Manufacturing and Processing",1,1
+114,"Goodwill Finance Co. Ltd.","GFCL",0,"Finance",1,1
+115,"Goodwill Finance Company Limited Promoter Share","GFCLPO",0,"Finance",1,1
+107,"Gorakshya Hydropower Limited","GKHL",0,"Hydro Power",1,1
+280,"Grameen Bikas Laghubitta Bittiya Sanstha Limited Promoter Share","GBLBSP",0,"Microfinance",1,1
+279,"Grameen Bikas Laghubitta Bittiya Sanstha Ltd.","GBLBS",0,"Microfinance",1,1
+64,"Green Development Bank Limited Promoter Share","GRDBLP",0,"Development Banks",1,1
+63,"Green Development Bank Ltd.","GRDBL",0,"Development Banks",1,1
+687,"Green Venture Limited","GVL",0,"Hydro Power",1,1
+577,"Greenlife Hydropower Limited","GLH",0,"Hydro Power",1,1
+173,"Grihalakshi Realty Limited","GRL",0,"Others",1,1
+262,"Grinedi Energy Limited","GEL",0,"Hydro Power",1,1
+943,"Guardian Micro-Life Insurance Company Limited","GMLI",0,"Life Insurance",1,1
+1028,"Guardian Micro-Life Insurance Company Limited Promoter Share","GMLIP",0,"Life Insurance",1,1
+116,"Guheshowori Merchant Bank & Finance Co. Ltd.","GMFIL",0,"Finance",1,1
+117,"Guheswori Merchant Banking and Finance Limited Promoter Share","GMFILP",0,"Finance",1,1
+282,"Gurans Laghubitta Bittiya Sanstha Limited","GLBSL",0,"Microfinance",1,1
+281,"Gurans Laghubitta Bittiya Sanstha Limited Promoter Share","GLBSLP",0,"Microfinance",1,1
+119,"Gurkhas Finance Limited Promoter Share","GUFLPO",0,"Finance",1,1
+118,"Gurkhas Finance Ltd.","GUFL",0,"Finance",1,1
+12,"Habitat Power Company Limited","HPCL",0,"Hydro Power",1,1
+885,"Hathway Investment Nepal Limited","HATHY",0,"Investment",1,1
+226,"Hetauda Cement Industries Limited","HETUDAC",0,"Manufacturing and Processing",1,1
+97,"HIM Electronics Private Limited","HEPL",0,"Others",1,1
+76,"Him Parbat Hydropower Limited","HIMP",0,"Hydro Power",1,1
+33,"Him River Power Limited","HIM",0,"Hydro Power",1,1
+953,"Him Star Urja Company Limited","HIMSTAR",0,"Hydro Power",1,1
+355,"Himal Dolakha Hydropower Company Limited","HDHPC",0,"Hydro Power",1,1
+168,"Himal Water Park & Village Hotel Limited ","HWVHL",0,"Hotels and Tourism",1,1
+159,"Himalaya Urja Bikas Company Limited","HURJA",0,"Hydro Power",1,1
+896,"Himalayan 80-20","H8020",0,"Mutual Fund",1,1
+14,"Himalayan Bank Limited","HBL",0,"Commercial Banks",1,1
+15,"Himalayan Bank Limited Promoter Share","HBLPO",0,"Commercial Banks",1,1
+276,"Himalayan Bullian Limited","HIMALAYAN",0,"Others",1,1
+120,"Himalayan Capital Limited","HCL",0,"Investment",1,1
+236,"Himalayan Distillery Limited","HDL",0,"Manufacturing and Processing",1,1
+263,"Himalayan Energy Limited","HEL",0,"Hydro Power",1,1
+788,"Himalayan Everest Insurance Company Limited-Promoter Share.","HEIP",0,"Non Life Insurance",1,1
+787,"Himalayan Everest Insurance Limited","HEI",0,"Non Life Insurance",1,1
+756,"Himalayan Hydropower Limited","HHL",0,"Hydro Power",1,1
+266,"Himalayan Laghubitta Bittiya Sanstha Limited","HLBSL",0,"Microfinance",1,1
+1066,"Himalayan Laghubitta Bittiya Sanstha Limited Promoter Share","HLBSLP",0,"Microfinance",1,1
+869,"Himalayan Life Insurance Limited","HLI",0,"Life Insurance",1,1
+881,"Himalayan Life Insurance Limited- Promoter Shares","HLIPO",0,"Life Insurance",1,1
+160,"Himalayan Power Partner Ltd.","HPPL",0,"Hydro Power",1,1
+906,"Himalayan Re-Insurance Limited","HRL",0,"Others",1,1
+916,"Himalayan Re-Insurance Limited Promoter Share","HRLP",0,"Others",1,1
+1051,"HLI Large Cap Fund","HLICF",0,"Mutual Fund",1,1
+26,"Hospital For Advanced Medicine and Surgery Limited","HAMS",0,"Others",1,1
+946,"Hotel Forest Inn Limited","HFIN",0,"Hotels and Tourism",1,1
+274,"Hotel Garima Limited","HGL",0,"Hotels and Tourism",1,1
+239,"Hotel Sarathi Limited","HOSIL",0,"Hotels and Tourism",1,1
+59,"Hulas Fin Serve Hire Purchase Limited","HULAS",0,"Investment",1,1
+181,"Hulas Infra Limited","HIL",0,"Others",1,1
+179,"Hulas Iron Industries Limited","HIILTD",0,"Manufacturing and Processing",1,1
+230,"Hydorelectricity Investment and Development Company Ltd","HIDCL",0,"Investment",1,1
+795,"Hydorelectricity Investment and Development Company Ltd Promoter Share","HIDCLP",0,"Investment",1,1
+120,"ICFC Finance Limited","ICFC",0,"Finance",1,1
+121,"ICFC Finance Limited Promoter Share","ICFCPO",0,"Finance",1,1
+125,"ICRA Nepal Limited","ICRA",0,"Others",1,1
+868,"IGI Prudential Insurance Limited","IGI",0,"Non Life Insurance",1,1
+204,"IME General Insurance Limited Promoter Share","IGIPO",0,"Non Life Insurance",1,1
+261,"IME Khalti Limited","IKL",0,"Others",1,1
+866,"IME Life Insurance Company Limited","ILI",0,"Life Insurance",1,1
+897,"IME Life Insurance Company Limited Promoter Share","ILIP",0,"Life Insurance",1,1
+40,"IME Limited","IME",0,"Others",1,1
+283,"Infinity Laghubitta Bittiya Sanstha Limited","ILBS",0,"Microfinance",1,1
+284,"Infinity Laghubitta Bittiya Sanstha Limited Promoter Share","ILBSP",0,"Microfinance",1,1
+830,"Ingwa Hydropower Limited","IHL",0,"Hydro Power",1,1
+62,"International Himalaya Hospitality and Hotel Limited","IHHHL",0,"Hotels and Tourism",1,1
+53,"Jagadamba Cement Pvt. Ltd","JCPL",0,"Manufacturing and Processing",1,1
+52,"Jagdamba Enterprises Private Limited ","JEPL",0,"Manufacturing and Processing",1,1
+212,"Jagdamba Motors Private Limited","JMPL",0,"Others",1,1
+111,"Jagdamba Spinning Mills Limited","JSML",0,"Manufacturing and Processing",1,1
+42,"Jagdamba Steels Limited","JSL",0,"Manufacturing and Processing",1,1
+123,"Janaki Finance company Limited Promoter Share","JFLPO",0,"Finance",1,1
+122,"Janaki Finance Company Ltd.","JFL",0,"Finance",1,1
+273,"Janata Agro and Foresty Limited","JAFL",0,"Others",1,1
+285,"Janautthan Samudayic Laghubitta Bikas Bank Limited Promoter Share","JSLBBP",0,"Microfinance",1,1
+286,"Janautthan Samudayik Laghubitta Bittiya Sanstha Limited","JSLBB",0,"Microfinance",1,1
+185,"Jasmine Paints Limited","JPL",0,"Manufacturing and Processing",1,1
+680,"Jeevan Bikas Laghubitta Bittiya Sanstha Limited","JBLB",0,"Microfinance",1,1
+721,"Jeevan Bikas Laghubitta Bittiya Sanstha Limited -Promoter Share","JBLBP",0,"Microfinance",1,1
+241,"Jhapa Energy Limited","JEL",0,"Others",1,1
+161,"Joshi Hydropower Development Company Ltd","JOSHI",0,"Hydro Power",1,1
+65,"Jyoti Bikas Bank Limited","JBBL",0,"Development Banks",1,1
+66,"Jyoti Bikas Bank Limited Promoter Share","JBBLPO",0,"Development Banks",1,1
+170,"Kailash Helicopter Services Limited","KHSL",0,"Others",1,1
+224,"Kalanga Hydro Limited","KHHLL",0,"Hydro Power",1,1
+287,"Kalika Laghubitta Bittiya Sanstha Limited","KMCDB",0,"Microfinance",1,1
+288,"Kalika Laghubitta Bittiya Sanstha Limited Promoter Share","KMCDBP",0,"Microfinance",1,1
+162,"Kalika Power Company Ltd","KPCL",0,"Hydro Power",1,1
+255,"Kalinchok Investment Company","KICL",0,"Investment",1,1
+31,"Kalinchowk Hydropower Limited","KHPL",0,"Hydro Power",1,1
+801,"Kalinchwok Darshan Limited","KDL",0,"Hotels and Tourism",1,1
+841,"Kalinchwok Darshan Limited Promoter Share","KDLP",0,"Hotels and Tourism",1,1
+69,"Kamana Sewa Bikas Bank Limited","KSBBL",0,"Development Banks",1,1
+70,"Kamana Sewa Bikas Bank Limited Promoter Share","KSBBLP",0,"Development Banks",1,1
+138,"Kantipur Pharmaceuticals Lab Limited ","KPL",0,"Others",1,1
+39,"Kantipur Television Network Limited","KTNL",0,"Others",1,1
+75,"Karnali Development Bank Limited","KRBL",0,"Development Banks",1,1
+76,"Karnali Development Bank Limited Promoter Share","KRBLPO",0,"Development Banks",1,1
+14,"Karnali Jalashrot Limited","KJL",0,"Hydro Power",1,1
+163,"Khanikhola Hydropower Co. Ltd.","KKHC",0,"Hydro Power",1,1
+4,"Khoranga Hydropower Limited","KHL",0,"Hydro Power",1,1
+225,"Kist Medical College Private Limited","KISTMC",0,"Others",1,1
+123,"Kriti Venture Fund Limited","KRITI",0,"Investment",1,1
+196,"Ktm Hospitality Limited","KTM",0,"Hotels and Tourism",1,1
+18,"Kumari Bank Limited","KBL",0,"Commercial Banks",1,1
+19,"Kumari Bank Limited Promoter Share","KBLPO",0,"Commercial Banks",1,1
+156,"Kumari Capital Limited","KCL",0,"Investment",1,1
+759,"Kumari Dhanabriddhi Yojana","KDBY",0,"Mutual Fund",1,1
+694,"Kumari Equity Fund","KEF",0,"Mutual Fund",1,1
+917,"Kumari Sabal Yojana","KSY",0,"Mutual Fund",1,1
+835,"Kumari Sunaulo Lagani Yojana","KSLY",0,"Mutual Fund",1,1
+855,"Kutheli Bukhari Small Hydropower Ltd","KBSH",0,"Hydro Power",1,1
+112,"L.C Energy Limited ","LCEL",0,"Hydro Power",1,1
+25,"Laughing Buddha Power Nepal Limited","LBPNL",0,"Hydro Power",1,1
+220,"Laxmi Bank Limited","LBL",0,"Commercial Banks",1,1
+21,"Laxmi Bank Limited Promoter Share","LBLPO",0,"Commercial Banks",1,1
+184,"Laxmi Equity Fund","LEMF",0,"Mutual Fund",1,1
+292,"Laxmi Laghubitta Bittiya Sanstha Limited Promoter Share","LLBSPO",0,"Microfinance",1,1
+291,"Laxmi Laghubitta Bittiya Sanstha Ltd.","LLBS",0,"Microfinance",1,1
+58,"Laxmi Steels Limited ","LAXMI",0,"Manufacturing and Processing",1,1
+883,"Laxmi Sunrise Bank Limited","LSL",0,"Commercial Banks",1,1
+1034,"Laxmi Sunrise Bank Limited Promoter Share","LSLPO",0,"Commercial Banks",1,1
+63,"Laxmi Techno Plast Limited","LTPL",0,"Manufacturing and Processing",1,1
+590,"Laxmi Unnati Kosh","LUK",0,"Mutual Fund",1,1
+185,"Laxmi Value Fund-1","LVF1",0,"Mutual Fund",1,1
+884,"Laxmi Value Fund II","LVF2",0,"Mutual Fund",1,1
+573,"Liberty Energy Company Limited","LEC",0,"Hydro Power",1,1
+73,"Liberty Micro Life Insurance Limited","LMLIL",0,NULL,1,1
+245,"Life Insurance Corporation (Nepal) Limited","LICN",0,"Life Insurance",1,1
+246,"Life Insurance Corporation (Nepal) Limited Promoter Share","LICNPO",0,"Life Insurance",1,1
+159,"Lost Horizon Jungle Resort Limited","LOSTH",0,"Hotels and Tourism",1,1
+35,"Lower Erkhuwa Hydropower Company Limited","LOWER",0,"Hydro Power",1,1
+242,"LS Horizon 12","LSHZ",0,"Mutual Fund",1,1
+78,"Lumbini Bikas Bank Limited Promoter Share","LBBLPO",0,"Development Banks",1,1
+77,"Lumbini Bikas Bank Ltd.","LBBL",0,"Development Banks",1,1
+189,"Lumbini Cablecar Limited","LCCL",0,"Hotels and Tourism",1,1
+203,"Lumbini Ceramics Limited","LUMCL",0,"Manufacturing and Processing",1,1
+960,"Mabilung Energy Limited","MABEL",0,"Hydro Power",1,1
+23,"Machhapuchchhre Bank Limited Promoter Share","MBLPO",0,"Commercial Banks",1,1
+22,"Machhapuchhre Bank Limited","MBL",0,"Commercial Banks",1,1
+1054,"Machhapuchhre SIP Yojana","MSIP",0,"Mutual Fund",1,1
+70,"Madame Khola Hydropower Limited","MADAME",0,"Hydro Power",1,1
+696,"Madhya Bhotekoshi Jalavidyut Company Limited","MBJC",0,"Hydro Power",1,1
+180,"Madhya Tarakhola Hydropower Limited","MTHL",0,"Hydro Power",1,1
+80,"Mahalaxmi Bikas Bank Limited Promoter Share","MLBLPO",0,"Development Banks",1,1
+79,"Mahalaxmi Bikas Bank Ltd.","MLBL",0,"Development Banks",1,1
+218,"Mahashakti Cement limited","MHSKT",0,"Manufacturing and Processing",1,1
+682,"Mahila Laghubitta Bittiya Sanstha Limited","MLBSL",0,"Microfinance",1,1
+684,"Mahila Laghubitta Bittiya Sanstha Limited Promoter share","MLBSLP",0,"Microfinance",1,1
+295,"Mahuli Laghubitta Bittiya Sanstha Ltd.","MSLB",0,"Microfinance",1,1
+296,"Mahuli Samudayik Laghubitta Bittiya Sanstha Limited Promoter Share","MSLBP",0,"Microfinance",1,1
+829,"Mai Khola Hydropower Limited","MKHL",0,"Hydro Power",1,1
+579,"Mailung Khola Jal Vidhyut Company Limited","MKJC",0,"Hydro Power",1,1
+292,"Makalu Wine Industries Limited","MWL",0,"Manufacturing and Processing",1,1
+817,"Makar Jitumaya Suri Hydropower Limited","MAKAR",0,"Hydro Power",1,1
+245,"Makari Gad Hydropower Limited","MGHL",0,"Hydro Power",1,1
+861,"Manakamana Engineering Hydropower Limited","MEHL",0,"Hydro Power",1,1
+767,"Mandakini Hydropower Limited","MHL",0,"Hydro Power",1,1
+858,"Mandu Hydropower Limited","MANDU",0,"Hydro Power",1,1
+127,"Manjushree Finance Limited Promoter Share","MFILPO",0,"Finance",1,1
+126,"Manjushree Finance Ltd.","MFIL",0,"Finance",1,1
+723,"Manushi Laghubitta Bittiya Sanstha Limited","MLBS",0,"Microfinance",1,1
+921,"Manushi Laghubitta Bittiya Sanstha Limited Promoter Share","MLBSP",0,"Microfinance",1,1
+30,"Maruti Cements Limited","MARUTI",0,"Manufacturing and Processing",1,1
+864,"Mathillo Mailun Khola Jalvidhyut Limited","MMKJL",0,"Hydro Power",1,1
+939,"Matribhumi Laghubitta Bittiya Sanstha Limited","MATRI",0,"Microfinance",1,1
+940,"Matribhumi Laghubitta Bittiya Sanstha Promoter Share","MATRIP",0,"Microfinance",1,1
+82,"Maulakalika Cable Car","MCC",0,"Hotels and Tourism",1,1
+803,"Maya Khola Hydropower Company Limited","MKHC",0,"Hydro Power",1,1
+127,"MBL Equity Fund","MBLEF",0,"Mutual Fund",1,1
+91,"Medicare Hospital Limited","MEDI",0,"Others",1,1
+9,"Meera Biotech Limited","MBTL",0,"Manufacturing and Processing",1,1
+25,"Mega Bank Nepal Limited Promoter Share","MEGAPO",0,"Commercial Banks",1,1
+728,"Mega Mutual Fund - 1","MMF1",0,"Mutual Fund",1,1
+822,"Menchhiyam Hydropower Limited","MCHL",0,"Hydro Power",1,1
+282,"Mero Kisan Limited","MERO KISAN",0,"Others",1,1
+297,"Mero Microfinance Laghubitta Bittiya Sanstha Limited","MERO",0,"Microfinance",1,1
+298,"Mero Microfinance Laghubitta Bittiya Sanstha Limited Promoter Share","MEROPO",0,"Microfinance",1,1
+269,"Metlife Insurance Limited","MIL",0,"Life Insurance",1,1
+215,"Mewa Developers Limited","MEWA",0,"Hydro Power",1,1
+862,"Mid- Solu Hydropower Ltd","MSHL",0,"Hydro Power",1,1
+137,"Middle Modi Hydropower Limited","MMHPL",0,"Hydro Power",1,1
+190,"Ministry Of Finance","MOF",0,"Others",1,1
+81,"Miteri Development Bank Limited","MDB",0,"Development Banks",1,1
+82,"Miteri Development Bank Limited Promoter Share","MDBPO",0,"Development Banks",1,1
+301,"Mithila LaghuBitta Bittiya Sanstha Limited","MLBBL",0,"Microfinance",1,1
+302,"Mithila LaghuBitta Bittiya Sanstha Limited Promoter Share","MLBBLP",0,"Microfinance",1,1
+832,"Modi Energy Limited","MEL",0,"Hydro Power",1,1
+808,"Molung Hydropower Company Ltd","MHCL",0,"Hydro Power",1,1
+98,"Mona Hydropower Limited","MONA",0,"Hydro Power",1,1
+129,"Moonlight Hydropower Company Limited","MLHCL",0,"Hydro Power",1,1
+285,"Mount Everest Power Limited","MEPL",0,"Hydro Power",1,1
+603,"Mountain Energy Nepal Limited","MEN",0,"Hydro Power",1,1
+234,"Mountain Glory Limited","MNGL",0,"Hotels and Tourism",1,1
+164,"Mountain Hydro Nepal Limited","MHNL",0,"Hydro Power",1,1
+84,"Muktinath Bikas Bank Limited Promoter Share","MNBBLP",0,"Development Banks",1,1
+83,"Muktinath Bikas Bank Ltd.","MNBBL",0,"Development Banks",1,1
+18,"Muktinath Capital Limited","MNCL",0,"Investment",1,1
+717,"MUKTINATH DEBENTURE 2084/85","MND84/85	",0,"Corporate Debenture",1,1
+849,"Muktinath Krishi Company Ltd.","MKCL",0,"Others",1,1
+942,"Muktinath Mutual Fund 1","MNMF1",0,"Mutual Fund",1,1
+128,"Multipurpose Finance Company Limited Promoter Share","MPFLPO",0,"Finance",1,1
+129,"Multipurpose Finance Limited","MPFL",0,"Finance",1,1
+232,"Myagdi Hydropower Limited","MYHL",0,"Hydro Power",1,1
+186,"Nabil Balanced Fund -2","NBF2",0,"Mutual Fund",1,1
+732,"Nabil Balanced Fund III","NBF3",0,"Mutual Fund",1,1
+26,"Nabil Bank Limited","NABIL",0,"Commercial Banks",1,1
+27,"Nabil Bank Limited Promoter Share","NABILP",0,"Commercial Banks",1,1
+187,"Nabil Equity Fund","NEF",0,"Mutual Fund",1,1
+797,"Nabil Flexi Cap Fund","NFCF",0,"Mutual Fund",1,1
+105,"Nabil Investment Banking Limited","NABILINV",0,"Investment",1,1
+304,"Nadep Laghubitta bittiya Sanstha Limited Promoter Share","NADEPP",0,"Microfinance",1,1
+303,"Nadep Laghubittiya Bittiya Sanstha Ltd.","NADEP",0,"Microfinance",1,1
+188,"Nagarik Stock Dealer Company Limited","NSDCL",0,"Others",1,1
+169,"Nagarkot Resort Limited","NRL",0,"Hotels and Tourism",1,1
+160,"Nagidanda Green Hills Limited","NAGI",0,"Others",1,1
+410,"Narayani Development Bank Limited","NABBC",0,"Development Banks",1,1
+879,"Narayani Development Bank Limited Promoter Share","NABBCP",0,"Development Banks",1,1
+265,"National Fund Management Limited","NFML",0,"Others",1,1
+165,"National Hydro Power Company Limited","NHPC",0,"Hydro Power",1,1
+308,"National Laghubitta  Bittiya Sanstha Ltd.","NMFBS",0,"Microfinance",1,1
+307,"National Laghubitta Bittiya Sanstha Limited Promoter Share","NMFBSP",0,"Microfinance",1,1
+247,"National Life Insurance Co. Ltd.","NLICL",0,"Life Insurance",1,1
+248,"National Life Insurance Company Limited Promoter Share","NLICLP",0,"Life Insurance",1,1
+192,"Ncell Axiata Limited","NCELL",0,"Others",1,1
+208,"Neco Insurance Co. Ltd.","NIL",0,"Non Life Insurance",1,1
+207,"Neco Insurance Company Limited Promoter Share","NILPO",0,"Non Life Insurance",1,1
+287,"Neev Corporation Limited","NEEV",0,"Manufacturing and Processing",1,1
+29,"Nepal Bangladesh Bank Limited Promoter Share","NBBPO",0,"Commercial Banks",1,1
+30,"Nepal Bank Limited","NBL",0,"Commercial Banks",1,1
+1065,"Nepal Bank Limited Promotor share","NBLP",0,"Commercial Banks",1,1
+197,"Nepal Bankers Association","NBA",0,"Others",1,1
+143,"Nepal Beema Pradhikaran (Nepal Insurance Authority)","NIA",0,"Others",1,1
+231,"Nepal Doorsanchar Company Limited","NTC",0,"Others",1,1
+54,"Nepal Electricity Authority","NEA",0,"Others",1,1
+131,"Nepal Finance Limited Promoter Share","NFSPO",0,"Finance",1,1
+130,"Nepal Finance Ltd.","NFS",0,"Finance",1,1
+166,"Nepal Hydro Developers Ltd.","NHDL",0,"Hydro Power",1,1
+612,"Nepal Infrastructure Bank Limited","NIFRA",0,"Investment",1,1
+675,"Nepal Infrastructure Bank Limited Promotor","NIFRAP",0,"Investment",1,1
+209,"Nepal Insurance Co. Ltd.","NICL",0,"Non Life Insurance",1,1
+210,"Nepal Insurance Company Limited Promoter Share","NICLPO",0,"Non Life Insurance",1,1
+770,"Nepal Investment Mega Bank Limited","NIMB",0,"Commercial Banks",1,1
+34,"Nepal Investment Mega Bank Limited Promoter Share","NIMBPO",0,"Commercial Banks",1,1
+249,"Nepal Life Insurance Co. Ltd.","NLIC",0,"Life Insurance",1,1
+250,"Nepal Life Insurance Company Limited Promoter Share","NLICP",0,"Life Insurance",1,1
+1057,"Nepal Life Samriddhi Lagani Yojana","NSY",0,"Mutual Fund",1,1
+237,"Nepal Lube Oil Limited","NLO",0,"Manufacturing and Processing",1,1
+1012,"Nepal Micro Insurance Company Limited","NMIC",0,"Non Life Insurance",1,1
+1036,"Nepal Micro Insurance Company Limited- Promoter Share","NMICP",0,"Non Life Insurance",1,1
+217,"Nepal Oil Corporation Limited","NOC",0,"Others",1,1
+114,"Nepal Payment Solution Limited ","NPSL",0,"Others",1,1
+142,"Nepal Rastra Bank","NRB",0,"Others",1,1
+571,"Nepal Reinsurance Company Limited","NRIC",0,"Others",1,1
+928,"Nepal Reinsurance Company Limited Promoter Share","NRICP",0,"Others",1,1
+867,"Nepal Republic Media Limited","NRM",0,"Others",1,1
+36,"Nepal SBI Bank Limited","SBI",0,"Commercial Banks",1,1
+35,"Nepal SBI Bank Limited Promoter Share","SBIPO",0,"Commercial Banks",1,1
+139,"Nepal Stock Exchange Limited","NEPSE",0,"Others",1,1
+166,"Nepal Tea Development Corporation Limited","NTDC",0,"Others",1,1
+853,"Nepal Warehousing Company Ltd","NWCL",0,"Others",1,1
+279,"Nepalirika Hotel Limited","NHL",0,"Hotels and Tourism",1,1
+907,"Nerude Mirmire Laghubitta Bittiya Sanstha Limited","NMLBBL",0,"Microfinance",1,1
+935,"Nerude Mirmire Laghubitta Bittiya Sasntha Limited- Promoter Share","NMLBBLP",0,"Microfinance",1,1
+706,"Nesdo Sambridha Laghubitta Bittiya Sanstha Limited","NESDO",0,"Microfinance",1,1
+920,"Nesdo Sambridha Laghubitta Bittiya Sanstha Limited Promoter Share","NESDOP",0,"Microfinance",1,1
+267,"Nextgen Management Limited","NGML",0,"Others",1,1
+167,"Ngadi Group Power Ltd.","NGPL",0,"Hydro Power",1,1
+1048,"NI 31","NI31",0,"Mutual Fund",1,1
+810,"NIBL Growth Fund","NIBLGF",0,"Mutual Fund",1,1
+188,"NIBL Pragati Fund","NIBLPF",0,"Mutual Fund",1,1
+593,"NIBL Sahabhagita Fund","NIBLSF",0,"Mutual Fund",1,1
+693,"NIBL Samriddhi Fund - II","NIBSF2",0,"Mutual Fund",1,1
+915,"NIBL Stable Fund","NIBLSTF",0,"Mutual Fund",1,1
+190,"NIC Asia Balanced Fund","NICBF",0,"Mutual Fund",1,1
+38,"NIC Asia Bank Limited Promoter Share","NICAP",0,"Commercial Banks",1,1
+37,"NIC Asia Bank Ltd.","NICA",0,"Commercial Banks",1,1
+609,"NIC Asia Dynamic Debt Fund","NADDF",0,"Mutual Fund",1,1
+1047,"NIC Asia Equity Linked Investment Scheme","ELIS",0,"Mutual Fund",1,1
+248,"NIC ASIA Equity Linked Investment Scheme ","NICAELI",0,"Mutual Fund",1,1
+760,"NIC ASIA Flexi CAP Fund","NICFC",0,"Mutual Fund",1,1
+191,"NIC Asia Growth Fund","NICGF",0,"Mutual Fund",1,1
+910,"NIC Asia Growth Fund-2","NICGF2",0,"Mutual Fund",1,1
+582,"NIC ASIA Laghubitta Bittiya Sanstha Limited","NICLBSL",0,"Microfinance",1,1
+922,"NIC ASIA Laghubitta Bittiya Sanstha Limited Promoter Share","NICLBSLP",0,"Microfinance",1,1
+699,"NIC Asia Select-30","NICSF",0,"Mutual Fund",1,1
+1039,"Nifra Green Energy Debenture 6% - 2088/89 (NIFRAGED)","NIFRAGED",0,"Corporate Debenture",1,1
+148,"NIMB Ace Capital Limited","NIMBCL",0,"Investment",1,1
+317,"Nirdhan Utthan Laghubitta Bittiya Sanstha Limited","NUBL",0,"Microfinance",1,1
+318,"Nirdhan Utthan Laghubitta Bittiya Sanstha Limited Promoter Share","NUBLPO",0,"Microfinance",1,1
+212,"NLG Insurance Company Limited Promoter Share","NLGPO",0,"Non Life Insurance",1,1
+211,"NLG Insurance Company Ltd.","NLG",0,"Non Life Insurance",1,1
+589,"NMB 50","NMB50",0,"Mutual Fund",1,1
+39,"NMB Bank Limited","NMB",0,"Commercial Banks",1,1
+40,"NMB Bank Limited Promoter Share","NMBPO",0,"Commercial Banks",1,1
+836,"NMB Debenture 10.75%-2089/90","NMBD89/90",0,"Corporate Debenture",1,1
+697,"NMB Debenture 8.50% - 2087/88","NMBD87/88",0,"Corporate Debenture",1,1
+192,"NMB Hybrid Fund L-1","NMBHF1",0,"Mutual Fund",1,1
+158,"NMB Hybrid Fund L-II","NMBHFL2",0,"Mutual Fund",1,1
+320,"NMB Laghubitta Bittiya Sanstha Limited","NMBMF",0,"Microfinance",1,1
+319,"NMB Laghubitta Bittiya Sanstha Limited Promoter Share","NMBMFP",0,"Microfinance",1,1
+701,"NMB Saral Bachat Fund - E (Open End)","NMBSBF",0,"Mutual Fund",1,1
+193,"NMB Sulav Investment Fund- 1","NMBSF1",0,"Mutual Fund",1,1
+785,"NMB Sulav Investment Fund - II","NSIF2",0,"Mutual Fund",1,1
+754,"NMB Urja Rinpatra (Energy Bond II) 4% 2093/94","NMBUR93/94",0,"Corporate Debenture",1,1
+204,"Nobel Medical College Teaching Hospital Limited","NMCTH",0,"Others",1,1
+90,"Norvic International Hospital and Medical College Limited","NORVIC",0,"Others",1,1
+570,"NRN Infrastructure and Development Limited","NRN",0,"Investment",1,1
+110,"Numbur Himalaya Hydropower Limited","NHHL",0,"Hydro Power",1,1
+726,"Nyadi Hydropower Limited","NYADI",0,"Hydro Power",1,1
+999,"Om Megashree Pharmaceuticals Limited","OMPL",0,"Manufacturing and Processing",1,1
+154,"Orbit Energy Limited","ORBIT",0,"Hydro Power",1,1
+23,"Orchid Holdings Limited","ORCHID",0,"Hotels and Tourism",1,1
+146,"Oriental Hotels Limited","OHL",0,"Hotels and Tourism",1,1
+1000,"Palpa Cement Industries Limited","PCIL",0,"Manufacturing and Processing",1,1
+174,"Pan Himalaya Energy Limited","PAN",0,"Hydro Power",1,1
+168,"Panchakanya Mai Hydropower Ltd","PMHPL",0,"Hydro Power",1,1
+169,"Panchthar Power Company Limited","PPCL",0,"Hydro Power",1,1
+61,"Parbat Paiyu Khola Hydropower Company Limited","PARBAT",0,"Hydro Power",1,1
+17,"Pashupati Renewables Limited","PRL",0,"Hydro Power",1,1
+271,"Pashupati Ventures Limited","PVL",0,"Others",1,1
+291,"Peoples Energy Limited","PEL",0,"Hydro Power",1,1
+793,"Peoples Hydropower Company Limited","PHCL",0,"Hydro Power",1,1
+769,"Peoples Power Limited","PPL",0,"Hydro Power",1,1
+259,"PhediKhola Hydropwer company limited","PKCL",0,"Hydro Power",1,1
+133,"Pokhara Finance Limited Promoter Share","PFLPO",0,"Finance",1,1
+132,"Pokhara Finance Ltd.","PFL",0,"Finance",1,1
+41,"Prabhu Bank Limited","PRVU",0,"Commercial Banks",1,1
+42,"Prabhu Bank Limited Promoter Share","PRVUPO",0,"Commercial Banks",1,1
+199,"Prabhu Helicopter Limited","PHL",0,"Others",1,1
+214,"Prabhu Insurance Limited Promoter Share","PRINPO",0,"Non Life Insurance",1,1
+213,"Prabhu Insurance Ltd.","PRIN",0,"Non Life Insurance",1,1
+926,"Prabhu Mahalaxmi Life Insurance Company Limited- Promoter Share","PMLIP",0,"Life Insurance",1,1
+886,"Prabhu Mahalaxmi Life Insurance Limited","PMLI",0,"Life Insurance",1,1
+198,"Prabhu Money Transfer Private Limited","PMTPL",0,"Others",1,1
+698,"Prabhu Select Fund","PSF",0,"Mutual Fund",1,1
+842,"Prabhu Smart Fund","PRSF",0,"Mutual Fund",1,1
+1040,"Prabhu Systematic Investment Scheme","PSIS",0,"Mutual Fund",1,1
+43,"Prime Commercial Bank Limited","PCBL",0,"Commercial Banks",1,1
+44,"Prime Commercial Bank Limited Promoter Share","PCBLP",0,"Commercial Banks",1,1
+134,"Progressive Finance Limited","PROFL",0,"Finance",1,1
+135,"Progressive Finance Limited Promoter Share","PROFLP",0,"Finance",1,1
+86,"Protective Micro Insurance Limited","PMIL",0,NULL,1,1
+1020,"Pure Energy Limited","PURE",0,"Others",1,1
+8,"Purwanchal Lube Oil Limited","PLO",0,"Manufacturing and Processing",1,1
+247,"Puwakhola-1 Hydropower Limited","PUWA",0,"Hydro Power",1,1
+170,"Radhi Bidyut Company Ltd","RADHI",0,"Hydro Power",1,1
+157,"Raghuganga Hydropower Limited","RHL",0,"Hydro Power",1,1
+65,"Rangoon Khola Hydropower Limited","RANGOON",0,"Hydro Power",1,1
+762,"Rapti Hydro & General Construction Limited","RHGCL",0,"Hydro Power",1,1
+194,"Rastriya Banijya Bank Limited","RBBL",0,"Commercial Banks",1,1
+219,"Rastriya Beema Company Limited","RBCL",0,"Non Life Insurance",1,1
+220,"Rastriya Beema Company Limited Promoter Share","RBCLPO",0,"Non Life Insurance",1,1
+172,"Rasuwagadhi Hydropower Company Limited","RHPL",0,"Hydro Power",1,1
+840,"Rawa Energy Development Limited","RAWA",0,"Hydro Power",1,1
+1050,"RBB Focus 40","RBBF40",0,"Mutual Fund",1,1
+100,"RBB Merchant Banking Limited","RBBM",0,"Investment",1,1
+700,"RBB Mutual Fund 1","RMF1",0,"Mutual Fund",1,1
+845,"RBB Mutual Fund 2","RMF2",0,"Mutual Fund",1,1
+900,"Reliable Nepal Life Insurance Ltd Promoter Share","RNLIP",0,"Life Insurance",1,1
+851,"Reliable Nepal Life Insurance Ltd.","RNLI",0,"Life Insurance",1,1
+137,"Reliance Finance Limited Promoter Share","RLFLPO",0,"Finance",1,1
+136,"Reliance Finance Ltd.","RLFL",0,"Finance",1,1
+99,"Reliance Spinning Mills","RSM",0,"Manufacturing and Processing",1,1
+856,"Reliance Spinning Mills Ltd.","RSML",0,"Manufacturing and Processing",1,1
+46,"Richet Jalbidhyut Company Limited","RJCL",0,"Hydro Power",1,1
+80,"Riddhi Siddhi Cement Limited","RIDDHI",0,"Manufacturing and Processing",1,1
+24,"Ridge Line Energy Limited","RIDGE",0,"Hydro Power",1,1
+789,"Ridi Power Company Limited","RIDI",0,"Hydro Power",1,1
+750,"River Falls Power Limited","RFPL",0,"Hydro Power",1,1
+288,"Royal Tulip Hotel","ROYAL",0,"Hotels and Tourism",1,1
+324,"RSDC Laghubitta Bittiya Sanstha Limited Promoter Share","RSDCP",0,"Microfinance",1,1
+323,"RSDC Laghubitta Bittiya Sanstha Ltd.","RSDC",0,"Microfinance",1,1
+670,"Ru Ru Jalbidhyut Pariyojana Limited","RURU",0,"Hydro Power",1,1
+122,"S.K. Energy Development Limited","SKEDL",0,"Hydro Power",1,1
+64,"Sabha Pokhari Hydropower Limited","SABHA",0,"Hydro Power",1,1
+815,"Sagarmatha Jalbidhyut Company Ltd","SMJC",0,"Hydro Power",1,1
+834,"Sagarmatha Lumbini Insurance Company Limited","SALICO",0,"Non Life Insurance",1,1
+877,"Sagarmatha Lumbini Insurance Company Limited Promoter Share","SALICOPO",0,"Non Life Insurance",1,1
+724,"Sahas Urja Ltd.","SAHAS",0,"Hydro Power",1,1
+116,"Saidi Power Company Limited","SAIDI",0,"Hydro Power",1,1
+1055,"Salapa Bikas Bank Limited","SABBL",0,"Development Banks",1,1
+1064,"Salapa Bikas Bank Limited - Promoter Share","SABBLP",0,"Development Banks",1,1
+132,"Saleways Cash and Carry Private Limited","SCCP",0,"Others",1,1
+283,"Salmanidevi Hydropwewer Limited","SHPL",0,"Hydro Power",1,1
+266,"Salpa Development Bank","SDBL",0,"Development Banks",1,1
+233,"Salt Trading Corporation","STC",0,"Tradings",1,1
+327,"Samata Gharelu Laghubitta Bittiya Sanstha Limited","SMATA",0,"Microfinance",1,1
+328,"Samata Laghubitta Bittiya Sanstha Limited Promoter Share","SMATAP",0,"Microfinance",1,1
+719,"Samling Power Company Limited","SPC",0,"Hydro Power",1,1
+937,"Sampada Laghubitta Bittiya Sanstha Limited","SMPDA",0,"Microfinance",1,1
+941,"Sampada Laghubitta Bittiya Sasntha Limited - Promoter Share","SMPDAP",0,"Microfinance",1,1
+138,"Samriddhi Finance Company Limited","SFCL",0,"Finance",1,1
+139,"Samriddhi Finance Company Limited Promoter Share","SFCLP",0,"Finance",1,1
+329,"Samudayik Laghubitta Bittiya Sanstha Limited","SLBSL",0,"Microfinance",1,1
+330,"Samudayik Laghubitta Bittiya Sanstha Limited Promoter Share","SLBSLPO",0,"Microfinance",1,1
+254,"Samyukta Urja","SUL",0,"Hydro Power",1,1
+332,"Sana Kisan Bikas Bank Limited Promoter Share","SKBBLP",0,"Microfinance",1,1
+331,"Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited","SKBBL",0,"Microfinance",1,1
+69,"Sangay Hydropower Company Limited","SANGAY",0,"Hydro Power",1,1
+971,"Sanigad Hydro Limited","SGHL",0,"Hydro Power",1,1
+45,"Sanima Bank Limited","SANIMA",0,"Commercial Banks",1,1
+46,"Sanima Bank Limited Promoter Share","SBBLPO",0,"Commercial Banks",1,1
+118,"Sanima Capital Limited","SACL",0,"Investment",1,1
+194,"Sanima Equity Fund","SAEF",0,"Mutual Fund",1,1
+201,"Sanima Equity Fund II ","SAEF-2",0,"Mutual Fund",1,1
+195,"Sanima Flexi Fund ","SFF",0,"Mutual Fund",1,1
+826,"Sanima GIC Insurance Limited","SGIC",0,"Non Life Insurance",1,1
+827,"Sanima GIC Insurance Limited- Promoter Share","SGICP",0,"Non Life Insurance",1,1
+794,"Sanima Growth Fund","SAGF",0,"Mutual Fund",1,1
+38,"Sanima Hydropower Limited","SHLTD",0,"Hydro Power",1,1
+616,"Sanima Large Cap Fund","SLCF",0,"Mutual Fund",1,1
+113,"Sanima Limited","SNMAL",0,"Hydro Power",1,1
+174,"Sanima Mai Hydropower Ltd.","SHPC",0,"Hydro Power",1,1
+814,"Sanima Middle Tamor Hydropower","TAMOR",0,"Hydro Power",1,1
+848,"Sanima Reliance Life Insurance Limited","SRLI",0,"Life Insurance",1,1
+876,"Sanima Reliance Life Insurance Limited Promoter Share","SRLIP",0,"Life Insurance",1,1
+175,"Sanjen Jalavidhyut Company Limited","SJCL",0,"Hydro Power",1,1
+956,"Sanvi Energy Limited","SANVI",0,"Hydro Power",1,1
+155,"Sapsu Kalika Hydropower Company","SAPSU",0,"Hydro Power",1,1
+95,"Saptakoshi Development Bank Limited Promoter Share","SAPDBLP",0,"Development Banks",1,1
+569,"Saptakoshi Development Bank Ltd","SAPDBL",0,"Development Banks",1,1
+661,"Sarbottam Cement Limited","SARBTM",0,"Manufacturing and Processing",1,1
+286,"Sarbottam Paints Limited","SRPL",0,"Manufacturing and Processing",1,1
+233,"Sarvottam Paints Industries Limited","SARVTM",0,"Manufacturing and Processing",1,1
+79,"Sasha Engineering Hydropower Limited","SASHA",0,"Hydro Power",1,1
+679,"Sayapatri Hydropower Limited","SPHL",0,"Hydro Power",1,1
+1070,"SBL 8.25% Perpetual Non Cumulative Preference Share","SBLPNP",0,"Corporate Debenture",1,1
+141,"Securities Board of Nepal","SEBON",0,"Others",1,1
+238,"Seed Energy Limited","SEEL",0,"Hydro Power",1,1
+183,"Seti Khola Hydropower Limited","SETI",0,"Hydro Power",1,1
+165,"Shaileshwori Power Nepal Limited","SPNL",0,"Hydro Power",1,1
+709,"Shangrila Development Bank Debenture 2087","SDBD87",0,"Corporate Debenture",1,1
+97,"Shangrila Development Bank Limited Promoter Share","SADBLP",0,"Development Banks",1,1
+96,"Shangrila Development Bank Ltd.","SADBL",0,"Development Banks",1,1
+27,"Shaurya Cement Industries Limited","SCIL",0,"Manufacturing and Processing",1,1
+223,"Shikhar Insurance Co. Ltd.","SICL",0,"Non Life Insurance",1,1
+224,"Shikhar Insurance Company Limited Promoter Share","SICLPO",0,"Non Life Insurance",1,1
+280,"Shikhar Power Development Company LTD","SPDC",0,"Hydro Power",1,1
+899,"Shikhar Power Development Limited","SIPD",0,"Hydro Power",1,1
+1045,"Shine Resunga Debenture","SHINED",0,"Corporate Debenture",1,1
+99,"Shine Resunga Development Bank Limited Promoter Share","SHINEP",0,"Development Banks",1,1
+98,"Shine Resunga Development Bank Ltd.","SHINE",0,"Development Banks",1,1
+167,"Shiva Shankar Hydro Investment Limited","SSHIL",0,"Hydro Power",1,1
+576,"Shiva Shree Hydropower Limited","SSHL",0,"Hydro Power",1,1
+238,"Shivam Cement Ltd.","SHIVM",0,"Manufacturing and Processing",1,1
+66,"Shivam Holdings Limited","SHLT",0,"Investment",1,1
+219,"Shree Airlines Limited","SAL",0,"Others",1,1
+67,"Shree Distillery Limited","SDL",0,"Manufacturing and Processing",1,1
+141,"Shree Investment and Finance Co. Ltd.","SIFC",0,"Finance",1,1
+140,"Shree Investment and Finance Company Limited Promoter Share","SIFCPO",0,"Finance",1,1
+121,"Shree Steels Limited","SSL",0,"Manufacturing and Processing",1,1
+666,"Shrijanshil Laghubitta Bittiya Sanstha Limited","SHLB",0,"Microfinance",1,1
+925,"Shrijanshil Laghubitta Bittiya Sanstha Limited Promoter Share","SHLBP",0,"Microfinance",1,1
+249,"Shubhashree Agni Cement Udhyog Limited","SACUL",0,"Manufacturing and Processing",1,1
+578,"Shuvam Power Limited","SPL",0,"Hydro Power",1,1
+47,"Siddhartha Bank Limited","SBL",0,"Commercial Banks",1,1
+48,"Siddhartha Bank Limited Promoter Share","SBLPO",0,"Commercial Banks",1,1
+102,"Siddhartha Capital Limited","SCL",0,"Investment",1,1
+195,"Siddhartha Equity Fund","SEF",0,"Mutual Fund",1,1
+1062,"Siddhartha Equity Fund 2","SEF2 ",0,"Mutual Fund",1,1
+196,"Siddhartha Equity Orineted Scheme","SEOS",0,"Mutual Fund",1,1
+103,"Siddhartha Finance Limited","SFL",0,"Finance",1,1
+519,"Siddhartha Investment Growth Scheme-1","SIGS1",0,"Mutual Fund",1,1
+839,"Siddhartha Investment Growth Scheme-3","SIGS3",0,"Mutual Fund",1,1
+197,"Siddhartha Investment Growth Scheme - 2","SIGS2",0,"Mutual Fund",1,1
+837,"Siddhartha Premier Insurance Company Limited","SPIL",0,"Non Life Insurance",1,1
+929,"Siddhartha Premier Insurance Limited- Promoter Share","SPILPO",0,"Non Life Insurance",1,1
+711,"Siddhartha Systematic Investment Scheme","SSIS",0,"Mutual Fund",1,1
+778,"Sikles Hydropower Limited","SIKLES",0,"Hydro Power",1,1
+250,"Simrik Air Limited","SIMRIK",0,"Others",1,1
+101,"Sindhu Bikash Bank Limited Promoter Share","SINDUP",0,"Development Banks",1,1
+100,"Sindhu Bikash Bank Ltd","SINDU",0,"Development Banks",1,1
+240,"Singapore Beverages Nepal Private Limited","SBNPL",0,"Manufacturing and Processing",1,1
+615,"Singati Hydro Energy Limited","SHEL",0,"Hydro Power",1,1
+131,"Smart Choice Technologies Limited","SCT",0,"Others",1,1
+145,"Smart Doors Limited","SMART",0,"Manufacturing and Processing",1,1
+981,"Snow River Limited","SNORL",0,"Hydro Power",1,1
+277,"Snow Rivers Limited","SRL",0,"Hydro Power",1,1
+147,"Soaltee Hotel Limited","SHL",0,"Hotels and Tourism",1,1
+104,"Solar Farm Limited","SOLAR",0,"Hydro Power",1,1
+961,"Solu Hydropower Limited","SOHL",0,"Hydro Power",1,1
+850,"Sonapur Minerals and Oil Ltd","SONA",0,"Manufacturing and Processing",1,1
+1003,"Sopan Pharmaceuticals Limited","SOPL",0,"Manufacturing and Processing",1,1
+221,"Source Code Private Limited","SOURCE",0,"Others",1,1
+200,"South Asian Beverages Limited","SABL",0,"Manufacturing and Processing",1,1
+49,"Standard Chartered Bank Limited","SCB",0,"Commercial Banks",1,1
+50,"Standard Chartered Bank Nepal Limited Promoter Share","SCBPO",0,"Commercial Banks",1,1
+92,"Star Hospital Limited","STARH",0,"Others",1,1
+74,"Star Micro Insurance Company Limited","STAR",0,NULL,1,1
+191,"Stock Broker's","BROKER",0,"Others",1,1
+782,"Subha Laxmi Kosh","SLK",0,"Mutual Fund",1,1
+93,"Subisu Cablenet Limited","SUBISU",0,"Others",1,1
+272,"Sumnima Hydropower Company Limited","SHCL",0,"Hydro Power",1,1
+882,"Sun Nepal Life Insurance Company Limited","SNLI",0,"Life Insurance",1,1
+901,"Sun Nepal Life Insurance Company Limited Promoter Share","SNLIP",0,"Life Insurance",1,1
+52,"Sunrise Bank Limited Promoter Share","SRBLPO",0,"Commercial Banks",1,1
+685,"Sunrise Bluechip Fund","SBCF",0,"Mutual Fund",1,1
+198,"Sunrise First Mutual Fund","SFMF",0,"Mutual Fund",1,1
+811,"Sunrise Focused Equity Fund","SFEF",0,"Mutual Fund",1,1
+150,"Super Hewa Power Company Limited","SHEPCL",0,"Hydro Power",1,1
+172,"Super Khudi Hydropower Limited","SKHL",0,"Hydro Power",1,1
+806,"Super Madi Hydropower Limited","SMHL",0,"Hydro Power",1,1
+802,"Supermai Hydropower Limited","SMH",0,"Hydro Power",1,1
+337,"Support Microfinance Bittiya Sanstha Limited","SMB",0,"Microfinance",1,1
+338,"Support Microfinance Bittiya Sanstha Limited Promoter Share","SMBPO",0,"Microfinance",1,1
+94,"Surya Nepal Private Limited","SURYA",0,"Manufacturing and Processing",1,1
+807,"Suryajyoti Life Insurance Company Limited","SJLIC",0,"Life Insurance",1,1
+923,"Suryajyoti Life Insurance Company Limited- Promoter Share","SJLICP",0,"Life Insurance",1,1
+983,"Suryakunda Hydro Electric Limited","SKHEL",0,"Hydro Power",1,1
+757,"Suryodaya Womi Laghubitta Bittiya Sanstha Limited","SWMF",0,"Microfinance",1,1
+931,"Suryodaya Womi Laghubitta Bittiya Sanstha Limited Promote Share","SWMFPO",0,"Microfinance",1,1
+341,"Swabalamban Laghubitta Bittiya Sanstha Limited","SWBBL",0,"Microfinance",1,1
+342,"Swabalamban Laghubitta Bittiya Sanstha Limited Promoter Share","SWBBLP",0,"Microfinance",1,1
+343,"Swabhimaan Laghubitta Bittiya Sanstha Limited","SMFBS",0,"Microfinance",1,1
+344,"Swabhimaan Laghubitta Bittiya Sanstha Limited Promoter Share","SMFBSP",0,"Microfinance",1,1
+347,"Swarojgar Laghubitta Bittiya Sanstha Limited","SLBBL",0,"Microfinance",1,1
+348,"Swarojgar Laghubitta Bittiya Sanstha Limited Promoter Share","SLBBLP",0,"Microfinance",1,1
+1010,"Swastik Laghubita Bittiya Sanstha Limited","SWASTIK",0,"Microfinance",1,1
+1053,"Swastik Laghubitta Bittiya Sanstha Limited- Promoter Share","SWASTIKP",0,"Microfinance",1,1
+763,"Swet Ganga Hydropower & Construction Ltd","SGHC",0,"Hydro Power",1,1
+176,"Swornim Hotel Limited","SWRNIM",0,"Hotels and Tourism",1,1
+995,"SY Panel Nepal Limited","SYPNL",0,"Manufacturing and Processing",1,1
+246,"Syarpu Power Company Limited","SYARPU",0,"Hydro Power",1,1
+176,"Synergy Power Development Ltd.","SPDL",0,"Hydro Power",1,1
+962,"Taksar Pikhuwa Khola Hydropower Limited","TPKHL",0,"Hydro Power",1,1
+260,"Tallo Solukhola hydropower","TSKHL",0,"Hydro Power",1,1
+148,"Taragaon Regency Hotel Limited","TRH",0,"Hotels and Tourism",1,1
+281,"Taxar Pikhuwakhola hydropower Limited","TAXAR",0,"Hydro Power",1,1
+712,"Terhathum Power Company Limited","TPC",0,"Hydro Power",1,1
+60,"Thamel Plaza Hotel And Suites Limited","TPHSL",0,"Hotels and Tourism",1,1
+213,"The Nepal Distilleries Private Limited","NDPVL",0,"Manufacturing and Processing",1,1
+844,"Three Star Hydropower Limited","TSHL",0,"Hydro Power",1,1
+161,"Thulo Khola Hydropower Limited","TKHP",0,"Hydro Power",1,1
+19,"Time Pharmaceuticals Limited ","TPPL",0,"Others",1,1
+852,"Trade Tower Ltd.","TTL",0,"Others",1,1
+575,"Trishuli Jal Vidhyut Company Limited","TVCL",0,"Hydro Power",1,1
+87,"Trust Micro Insurance Limited","TRUST",0,NULL,1,1
+240,"Unilever Nepal Limited","UNL",0,"Manufacturing and Processing",1,1
+177,"Union Hydro Holding Limited","UNHPL",0,"Hydro Power",1,1
+152,"Union Mewa Hydro Limited","UMHPL",0,"Hydro Power",1,1
+182,"Unique Hydel Company Limited","UHCL",0,"Hydro Power",1,1
+736,"Unique Nepal Laghubitta Bittiya Sanstha Limited","UNLB",0,"Microfinance",1,1
+828,"Unique Nepal Laghubitta Bittiya Sanstha Limited Promoter Share","UNLBP",0,"Microfinance",1,1
+229,"Unitech Hydropower Company Limited","UNITECH",0,"Hydro Power",1,1
+880,"United Ajod Insurance Limited","UAIL",0,"Non Life Insurance",1,1
+893,"United Ajod Insurance Limited Promoter Share","UAILPO",0,"Non Life Insurance",1,1
+145,"United Finance Limited Promoter Share","UFLPO",0,"Finance",1,1
+606,"United IDI Mardi and RB Hydropower Ltd","UMRH",0,"Hydro Power",1,1
+178,"United Modi Hydropower Ltd.","UMHL",0,"Hydro Power",1,1
+216,"United Traders Syndicate Private Limited","UTSPL",0,"Others",1,1
+179,"Universal Power Company Limited","UPCL",0,"Hydro Power",1,1
+587,"Unnati Sahakarya Laghubitta Bittiya Sanstha Limited","USLB",0,"Microfinance",1,1
+934,"Unnati Sahakarya Laghubitta Bittiya Sanstha Limited  Promoter Share","USLBP",0,"Microfinance",1,1
+749,"Upakar Laghubitta Bittiya Sanstha Limited","ULBSL",0,"Microfinance",1,1
+932,"Upakar Laghubitta Bittiya Sanstha Ltd Promoter Share","ULBSLPO",0,"Microfinance",1,1
+758,"Upper Hewakhola Hydropower Limited","UHEWA",0,"Hydro Power",1,1
+857,"Upper Lohore Khola Hydropower Company Ltd.","ULHC",0,"Hydro Power",1,1
+755,"Upper Solu Hydro Electric Company Limited","USHEC",0,"Hydro Power",1,1
+870,"Upper Syange Hydropower Limited","USHL",0,"Hydro Power",1,1
+180,"Upper Tamakoshi Hydropower Ltd","UPPER",0,"Hydro Power",1,1
+175,"Varnabas Museum Hotel Limited ","VMHL",0,"Hotels and Tourism",1,1
+205,"Vianet Communication Limited","VIANET",0,"Others",1,1
+352,"Vijaya laghubitta Bittiya Sanstha Limited Promoter Share","VLBSPO",0,"Microfinance",1,1
+351,"Vijaya laghubitta Bittiya Sanstha Ltd.","VLBS",0,"Microfinance",1,1
+55,"Vision Energy and Power Limited","VEPL",0,"Hydro Power",1,1
+854,"Vision Lumbini Urja Company Limited","VLUCL",0,"Hydro Power",1,1
+214,"Water Energy Solution Limited","WESL",0,"Hydro Power",1,1
+313,"Wean Nepal Laghubitta Bittiya Sanstha Limited","WNLB",0,"Microfinance",1,1
+933,"Wean Nepal Laghubitta Bittiya Sanstha Limited Promoter Share","WNLBP",0,"Microfinance",1,1
+126,"Wonders Nepal Private Limited","WNPL",0,"Hotels and Tourism",1,1
+2,"WorldLink Communications Limited","WCL",0,"Others",1,1
+20,"Yambaling Hydropower Limited","YBHL",0,"Hydro Power",1,1
+289,"Yeti Airlines Limited","YETI",0,"Hotels and Tourism",1,1
+208,"Yeti Brewery Limited","YETIB",0,"Manufacturing and Processing",1,1

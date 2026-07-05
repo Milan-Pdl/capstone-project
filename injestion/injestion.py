@@ -118,32 +118,31 @@ def load_share_prices(stocks: list[dict]) -> None:
         CREATE SCHEMA IF NOT EXISTS {RAW_SCHEMA};
     """)
 
+    # Back to a basic table structure with NO unique constraints
     cursor.execute(f"""
         CREATE TABLE IF NOT EXISTS {stock_table} (
-
             stock_symbol VARCHAR,
             company_name VARCHAR,
-            no_of_transactions INT,
-            max_price NUMERIC,
-            min_price NUMERIC,
-            opening_price NUMERIC,
-            closing_price NUMERIC,
-            amount NUMERIC,
-            previous_closing NUMERIC,
-            difference_rs NUMERIC,
-            percent_change NUMERIC,
-            volume INT,
-            ltv INT,
-            as_of_date TIMESTAMP,
+            no_of_transactions VARCHAR,
+            max_price VARCHAR,
+            min_price VARCHAR,
+            opening_price VARCHAR,
+            closing_price VARCHAR,
+            amount VARCHAR,
+            previous_closing VARCHAR,
+            difference_rs VARCHAR,
+            percent_change VARCHAR,
+            volume VARCHAR,
+            ltv VARCHAR,
+            as_of_date VARCHAR,
             as_of_date_string VARCHAR,
-            trade_date DATE,
+            trade_date VARCHAR,
             data_type VARCHAR
-
         );
     """)
 
-    cursor.execute(f"TRUNCATE TABLE {stock_table};")
-
+    # TRUNCATE is removed so data accumulates historically.
+    # A simple INSERT statement that accepts every row blindly.
     insert_query = f"""
         INSERT INTO {stock_table}
         (
@@ -193,13 +192,12 @@ def load_share_prices(stocks: list[dict]) -> None:
     ]
 
     cursor.executemany(insert_query, rows)
-
     conn.commit()
 
     cursor.close()
     conn.close()
 
-    print(f"Inserted {len(rows)} stock records")
+    print(f"Appended {len(rows)} records into raw table.")
 
 if __name__ == "__main__":
 

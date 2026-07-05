@@ -43,9 +43,18 @@ models:
       
     # 3. MARTS LAYER (Gold / Reporting)
     marts:
-      +materialized: table       # Fully materialized reporting tables
-      +schema: gold
-
+          # Configurations applied to everything inside models/marts/
+          +enabled: true
+          
+          dim:
+            # Everything in models/marts/dim/ will default to a table
+            +materialized: table
+            +schema: gold_dim
+            
+          fct:
+            # Since your fact tables are large and time-series based, default them to incremental
+            +materialized: incremental
+            +schema: gold_fct
 # snapshots:
 #   dbtProject:  # Replace with your actual project name if different
 #     +target_schema: gold
