@@ -1,7 +1,5 @@
 {{ config(
-    materialized='incremental',
-    incremental_strategy = 'append',
-    unique_key='stock_date_key'
+    materialized='table',
 ) }}
 
 select
@@ -23,10 +21,7 @@ select
     ltv,
     as_of_date,
     as_of_date_string,
-    trade_date
+    trade_date,
+    current_timestamp as loaded_at
 from {{ source('stock', 'stock_market_data') }}
-
-{% if is_incremental() %}
-    -- Keeps the lookback efficient
-    where as_of_date > (select max(as_of_date) from {{ this }})
-{% endif %}
+where as_of_date::date = (select max(as_of_date::date) from {{ source('stock', 'stock_market_data') }})
