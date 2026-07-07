@@ -1,8 +1,6 @@
 
 {{ config(
-    materialized='incremental',
-    incremental_strategy = 'append',
-    unique_key='stock_date_key'
+    materialized='table'
 ) }}
 
 
@@ -27,8 +25,4 @@ select
     nullif(trade_date, '')::date as trade_date,
     current_timestamp as loaded_at
 from {{ ref('stg_liveShare') }}
-
-{% if is_incremental() %}
-    -- Keeps the lookback efficient
-    where as_of_date::timestamp > (select max(as_of_date) from {{ this }})
-{% endif %}
+where loaded_at::date = (select max(loaded_at::date) from {{ ref('stg_liveShare') }})
