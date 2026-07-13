@@ -4,7 +4,6 @@
 
 select
     -- Generating the surrogate key
-    {{ dbt_utils.generate_surrogate_key(['stock_symbol', 'as_of_date']) }} as stock_date_key,
     
     stock_symbol,
     company_name,

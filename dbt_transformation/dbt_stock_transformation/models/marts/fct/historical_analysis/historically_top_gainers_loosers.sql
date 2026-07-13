@@ -41,7 +41,7 @@ select
     gain_rank as rank,
     'gainer' as side
 from ranked
-where gain_rank <= 10
+where gain_rank <= 100
 
 union all
 
@@ -57,6 +57,6 @@ select
     loss_rank as rank,
     'loser' as side
 from ranked
-where loss_rank <= 10
+where loss_rank <= 100
 
 order by avg_percent_change desc, side, rank
