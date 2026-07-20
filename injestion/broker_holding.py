@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 
 def get_weekly_holdings(symbol: str):
     with sync_playwright() as p:
-        # Keep headless=False for now so you can verify the spinner goes away
+        # Switch to headless=True once you are confident running it in the background
         browser = p.chromium.launch(headless=False)
 
         context = browser.new_context(
@@ -14,7 +14,7 @@ def get_weekly_holdings(symbol: str):
             viewport={"width": 1280, "height": 720},
         )
 
-        # CRUCIAL STEALTH FIX: Hide the automation footprint to break the infinite spinner
+        # 1. Stealth injection: Strips out the 'webdriver' automation flag to bypass firewall blocks
         context.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
@@ -25,30 +25,29 @@ def get_weekly_holdings(symbol: str):
             wait_until="domcontentloaded",
         )
 
-        # 1. Handle the period dropdown selection
+        # 2. Handle the period dropdown selection (Weekly)
         page.wait_for_selector("#report-types", state="attached", timeout=15000)
         page.select_option("#report-types", value="W")
 
-        # 2. Open Select2 search dropdown container
+        # 3. Open Select2 search dropdown container
         page.wait_for_selector("span.select2-selection--single")
         page.click("span.select2-selection--single")
 
-        # 3. Enter the target symbol into the active search input field
+        # 4. Enter the target symbol into the active search input field
         page.wait_for_selector("input.select2-search__field")
         page.fill("input.select2-search__field", symbol)
 
-        # 4. Wait for Select2 list items and click the exact matching symbol
+        # 5. Wait for Select2 list items and click the exact matching symbol text
         page.wait_for_selector("ul.select2-results__options li")
         page.click(f"ul.select2-results__options li:has-text('{symbol}')")
 
-        # Small delay for DOM synchronization
+        # Small delay for DOM state alignment
         time.sleep(0.5)
 
-        # 5. Click the Filter button
-        page.wait_for_selector("button:has-text('Filter')")
+        # 6. Click the Filter button
         page.click("button:has-text('Filter')", force=True)
 
-        # 6. Wait for the tables to load into view (Spinner should clear now)
+        # 7. Wait for both data grids to populate and become fully visible
         page.wait_for_selector(
             "#broker_holder_buyer_div table", state="visible", timeout=30000
         )
@@ -56,7 +55,13 @@ def get_weekly_holdings(symbol: str):
             "#broker_holder_seller_div table", state="visible", timeout=30000
         )
 
-        # Extract DOM data strings
+        # 8. Safely fetch the specific date range text block (resolves strict mode error)
+        page.wait_for_selector("div.card-header .card-title b")
+        date_range_text = (
+            page.locator("div.card-header .card-title b").first.inner_text()
+        )
+
+        # Extract DOM data layout strings
         buyer_html = page.locator(
             "#broker_holder_buyer_div div.table-responsive"
         ).inner_html()
@@ -67,11 +72,19 @@ def get_weekly_holdings(symbol: str):
         context.close()
         browser.close()
 
-        # Parse dataframes
+        # 9. Parse dynamic collections into structured pandas frames
         df_buyers = parse_dynamic_table(buyer_html, action_type="Buy")
         df_sellers = parse_dynamic_table(seller_html, action_type="Sell")
 
+        # Combine datasets
         combined_df = pd.concat([df_buyers, df_sellers], ignore_index=True)
+
+        # 10. Inject context metadata tracking columns
+        if not combined_df.empty:
+            combined_df["Symbol"] = symbol
+            combined_df["Period_Range"] = date_range_text.strip()
+            combined_df["Scraped_At"] = pd.Timestamp.now()
+
         return combined_df
 
 
@@ -99,8 +112,9 @@ def parse_dynamic_table(html_content: str, action_type: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    target_symbol = "UNHPL"
-    print(f"Running stealth extraction pipeline for: {target_symbol}...")
+    target_symbol = "BHL"
+    print(f"Running extraction pipeline for symbol: {target_symbol}...")
     stock_data = get_weekly_holdings(target_symbol)
-    print("\n--- Final Extracted Data ---")
-    print(stock_data)
+
+    print("\n--- Final Extracted Data Frame ---")
+    print(stock_data.to_string(index=False))
