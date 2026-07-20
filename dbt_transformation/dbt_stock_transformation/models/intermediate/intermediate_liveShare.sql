@@ -1,11 +1,19 @@
-
 {{ config(
-    materialized='incremental',
-    incremental_strategy = 'append',
-    unique_key='stock_date_key'
+    materialized='table'
 ) }}
 
+with raw as (
 
+    select *,
+    -- Generating the surrogate key
+    {{ dbt_utils.generate_surrogate_key(['stock_symbol', 'as_of_date']) }} as stock_date_key,
+    row_number() over (
+        partition by stock_symbol, as_of_date
+        order by loaded_at desc 
+    ) as rnk_id
+    from {{ ref('stg_liveShare') }}
+
+) -- <-- Removed trailing comma here
 
 select
     stock_date_key,
@@ -26,9 +34,5 @@ select
     as_of_date_string::text as as_of_date_string,
     nullif(trade_date, '')::date as trade_date,
     current_timestamp as loaded_at
-from {{ ref('stg_liveShare') }}
-
-{% if is_incremental() %}
-    -- Keeps the lookback efficient
-    where as_of_date::timestamp > (select max(as_of_date) from {{ this }})
-{% endif %}
+from raw
+where rnk_id = 1

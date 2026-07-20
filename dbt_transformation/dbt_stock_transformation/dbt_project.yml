@@ -52,10 +52,19 @@ models:
             +schema: gold_dim
             
           fct:
-            # Since your fact tables are large and time-series based, default them to incremental
-            +materialized: incremental
-            +schema: gold_fct
-# snapshots:
+                # 1. Start with your defaults for everything inside the 'fct' folder
+                +materialized: incremental
+                +schema: gold_fct
+
+                # 2. Add your specific overrides for individual subfolders/models
+                daily_analysis:
+                  +materialized: table
+                  +schema: daily_fct
+
+                historical_analysis:
+                  +materialized: table
+                  +schema: historical_fct
+          # snapshots:
 #   dbtProject:  # Replace with your actual project name if different
 #     +target_schema: gold
 
