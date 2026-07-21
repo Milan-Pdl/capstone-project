@@ -1,0 +1,6 @@
+# Dependencies for live_stock_into_s3.py script
+psycopg2>=2.9.12       # PostgreSQL database adapter
+pandas>=2.0.0          # Data manipulation and analysis
+boto3>=1.28.0          # AWS SDK for Python
+pyarrow>=12.0.0        # Parquet file support
+python-dotenv>=1.0.0   # Load environment variables from .env file
