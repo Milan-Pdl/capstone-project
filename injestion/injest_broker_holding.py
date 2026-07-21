@@ -224,7 +224,7 @@ def load_csv_to_db(csv_file_path: str) -> None:
         INSERT INTO {table_name}
         (
             broker,
-            quantity,
+            quantity,   
             type,
             symbol,
             period_range,

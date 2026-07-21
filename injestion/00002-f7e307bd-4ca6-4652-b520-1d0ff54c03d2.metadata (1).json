@@ -1,0 +1,124 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "445a4620-7d9c-455e-8027-df4b6f82c856",
+  "location" : "s3://milan-stock-data-lake/iceberg/broker_holding",
+  "last-sequence-number" : 2,
+  "last-updated-ms" : 1784640284267,
+  "last-column-id" : 6,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "broker",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "quantity",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "symbol",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "period_range",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "scraped_at",
+      "required" : false,
+      "type" : "timestamp"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "write.object-storage.enabled" : "true",
+    "write.object-storage.path" : "s3://milan-stock-data-lake/iceberg/broker_holding/data",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 8906497076298192371,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 8906497076298192371,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 7390847277253659117,
+    "timestamp-ms" : 1784639537246,
+    "summary" : {
+      "operation" : "append",
+      "trino_query_id" : "20260721_131215_00277_7fwqs",
+      "added-data-files" : "1",
+      "added-records" : "6760",
+      "added-files-size" : "34186",
+      "changed-partition-count" : "1",
+      "total-records" : "6760",
+      "total-files-size" : "34186",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3://milan-stock-data-lake/iceberg/broker_holding/metadata/snap-7390847277253659117-1-0ae708c3-a664-4c58-abd5-36553c4190e2.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 8906497076298192371,
+    "parent-snapshot-id" : 7390847277253659117,
+    "timestamp-ms" : 1784640284267,
+    "summary" : {
+      "operation" : "append",
+      "trino_query_id" : "20260721_132443_00079_nsp2p",
+      "added-data-files" : "1",
+      "added-records" : "1",
+      "added-files-size" : "1085",
+      "changed-partition-count" : "1",
+      "total-records" : "6761",
+      "total-files-size" : "35271",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "s3://milan-stock-data-lake/iceberg/broker_holding/metadata/snap-8906497076298192371-1-e94484c7-d4e5-4c49-9295-c18c3bfa33e3.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1784639537246,
+    "snapshot-id" : 7390847277253659117
+  }, {
+    "timestamp-ms" : 1784640284267,
+    "snapshot-id" : 8906497076298192371
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1784639385101,
+    "metadata-file" : "s3://milan-stock-data-lake/iceberg/broker_holding/metadata/00000-40a795f8-daa3-49cc-8ac5-e78d0d84da78.metadata.json"
+  }, {
+    "timestamp-ms" : 1784639537246,
+    "metadata-file" : "s3://milan-stock-data-lake/iceberg/broker_holding/metadata/00001-c1bcefaa-aedc-4b75-98ed-9ef5a7c23c5f.metadata.json"
+  } ]
+}

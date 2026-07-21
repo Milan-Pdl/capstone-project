@@ -1,0 +1,66 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "445a4620-7d9c-455e-8027-df4b6f82c856",
+  "location" : "s3://milan-stock-data-lake/iceberg/broker_holding",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1784639385101,
+  "last-column-id" : 6,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "broker",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "quantity",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "symbol",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "period_range",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "scraped_at",
+      "required" : false,
+      "type" : "timestamp"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "write.object-storage.enabled" : "true",
+    "write.object-storage.path" : "s3://milan-stock-data-lake/iceberg/broker_holding/data",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
