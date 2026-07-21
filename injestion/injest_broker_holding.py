@@ -1,3 +1,24 @@
+from __future__ import annotations
+
+from datetime import datetime
+import os
+import time
+
+from bs4 import BeautifulSoup
+import pandas as pd
+import psycopg2
+from playwright.sync_api import sync_playwright
+
+from config import DB_CONFIG, RAW_SCHEMA
+
+# Table name configuration
+BROKER_HOLDING_TABLE = "broker_holding"
+
+
+def get_qualified_table(table_name: str) -> str:
+    return f"{RAW_SCHEMA}.{table_name}"
+
+
 import time
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -157,14 +178,91 @@ def parse_dynamic_table(html_content: str, action_type: str) -> pd.DataFrame:
     return df
 
 
-if __name__ == "__main__":
-    print("Starting full batch broker holding extraction pipeline...")
-    master_stock_data = get_weekly_holdings_for_all()
+def save_df_to_dated_csv(df: pd.DataFrame) -> str:
+    """Saves DataFrame to a CSV file named with the current date."""
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    file_name = f"broker_holding_{current_date}.csv"
 
-    print("\n--- Final Master Extracted Data ---")
-    if not master_stock_data.empty:
-        print(f"Total Rows Scraped: {len(master_stock_data)}")
-        master_stock_data.to_csv("today_data.csv", index=False)
-        print("Data successfully saved to 'all_broker_holdings.csv'")
+    df.to_csv(file_name, index=False)
+    print(f"Saved scraped data to '{file_name}'.")
+    return file_name
+
+
+def load_csv_to_db(csv_file_path: str) -> None:
+    """Reads the CSV file and appends its content into PostgreSQL database."""
+    if not os.path.exists(csv_file_path):
+        print(f"Error: CSV file '{csv_file_path}' does not exist.")
+        return
+
+    df = pd.read_csv(csv_file_path)
+    if df.empty:
+        print("CSV file is empty. Skipping DB ingestion.")
+        return
+
+    # Standardize column naming for PostgreSQL schema
+    df.columns = [col.strip().lower().replace(" ", "_") for col in df.columns]
+
+    conn = psycopg2.connect(**DB_CONFIG)
+    cursor = conn.cursor()
+    table_name = get_qualified_table(BROKER_HOLDING_TABLE)
+
+    cursor.execute(f"CREATE SCHEMA IF NOT EXISTS {RAW_SCHEMA};")
+
+    # Create raw table if it doesn't already exist
+    cursor.execute(f"""
+        CREATE TABLE IF NOT EXISTS {table_name} (
+            broker VARCHAR,
+            quantity NUMERIC,
+            type VARCHAR,
+            symbol VARCHAR,
+            period_range VARCHAR,
+            scraped_at VARCHAR
+        );
+    """)
+
+    insert_query = f"""
+        INSERT INTO {table_name}
+        (
+            broker,
+            quantity,
+            type,
+            symbol,
+            period_range,
+            scraped_at
+        )
+        VALUES (%s, %s, %s, %s, %s, %s);
+    """
+
+    rows = []
+    for _, row in df.iterrows():
+        rows.append((
+            str(row.get("broker", "")),
+            row.get("quantity") if pd.notna(row.get("quantity")) else None,
+            str(row.get("type", "")),
+            str(row.get("symbol", "")),
+            str(row.get("period_range", "")),
+            str(row.get("scraped_at", "")),
+        ))
+
+    cursor.executemany(insert_query, rows)
+    conn.commit()
+
+    cursor.close()
+    conn.close()
+
+    print(f"Appended {len(rows)} records from '{csv_file_path}' into {table_name}.")
+
+
+if __name__ == "__main__":
+    print("--- Step 1: Starting Scraping ---")
+    scraped_df = get_weekly_holdings_for_all()
+
+    if not scraped_df.empty:
+        print("\n--- Step 2: Saving to Date-Stamped CSV ---")
+        csv_file = save_df_to_dated_csv(scraped_df)
+
+        print("\n--- Step 3: Ingesting CSV into Database ---")
+        load_csv_to_db(csv_file)
+        print("Pipeline execution finished successfully.")
     else:
-        print("No data was collected.")
+        print("No broker holding data was collected.")
