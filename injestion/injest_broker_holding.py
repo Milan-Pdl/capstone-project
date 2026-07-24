@@ -181,7 +181,7 @@ def parse_dynamic_table(html_content: str, action_type: str) -> pd.DataFrame:
 def save_df_to_dated_csv(df: pd.DataFrame) -> str:
     """Saves DataFrame to a CSV file named with the current date."""
     current_date = datetime.now().strftime("%Y-%m-%d")
-    file_name = f"broker_holding_{current_date}.csv"
+    file_name = f"E:\\Milan\\capstone_project\\capstone-project\\injestion\\data\\broker_holding_{current_date}.csv"
 
     df.to_csv(file_name, index=False)
     print(f"Saved scraped data to '{file_name}'.")
@@ -254,6 +254,7 @@ def load_csv_to_db(csv_file_path: str) -> None:
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     print("--- Step 1: Starting Scraping ---")
     scraped_df = get_weekly_holdings_for_all()
 
@@ -266,3 +267,5 @@ if __name__ == "__main__":
         print("Pipeline execution finished successfully.")
     else:
         print("No broker holding data was collected.")
+    end_time = time.time()
+    print(f"Total execution time: {end_time - start_time:.2f} seconds.")    

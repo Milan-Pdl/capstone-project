@@ -3,7 +3,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 df = pd.read_csv(
-    r"E:\DLytiica\capstone_project\injestion\broker_holding_2026-07-21.csv",
+    "E:\\Milan\\capstone_project\\capstone-project\\injestion\\broker_holding_2026-07-21.csv",
     on_bad_lines="skip"  # skip malformed rows
 )
 
